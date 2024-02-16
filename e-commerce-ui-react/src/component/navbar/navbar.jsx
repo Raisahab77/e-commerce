@@ -11,7 +11,6 @@ export default function Navbar(){
     }
 
     function changeHeader(){
-        
         let navbar = document.getElementById('navbar');
         let scrollValue = window.scrollY;
         if (scrollValue > 0) {
